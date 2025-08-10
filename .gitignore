@@ -1,0 +1,87 @@
+# Database files - CRITICAL: Contains broker credentials
+trading_platform.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files - Contains sensitive API keys
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+trading_env/
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# Any files with 'secret', 'key', 'token' in name
+*secret*
+*key*
+*token*
+*credential*
+*password*
+
+# Backup files
+*.bak
+*.backup

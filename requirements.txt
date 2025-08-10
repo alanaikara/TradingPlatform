@@ -1,0 +1,7 @@
+streamlit
+dhanhq
+plotly
+pandas
+numpy
+requests
+cryptography
